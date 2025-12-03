@@ -8,6 +8,10 @@
     color: blue;
     font-weight: 600;
 }
+th {
+    font-size: 18px;
+    color: green
+}
 
 table, th,td {
     border: 2px solid black;
