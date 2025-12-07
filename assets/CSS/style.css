@@ -19,17 +19,27 @@
     padding-left: 70px;
  }
 
+ form {
+   display: flex;
+   justify-content: center;
+ }
  label , input ,textarea,button {
-    display: block;
+    display:inline-block;
+   
+    
  }
  label {
     text-align: center;
     margin: auto;
+    padding-block: 10px;
+
  }  
- input,textarea,button {
+ input,textarea {
     margin: auto;
  }
  button {
+   display: block;
     background-color: green;
     color: white;
+    justify-self: center;
  }
