@@ -18,3 +18,18 @@
  #one {
     padding-left: 70px;
  }
+
+ label , input ,textarea,button {
+    display: block;
+ }
+ label {
+    text-align: center;
+    margin: auto;
+ }  
+ input,textarea,button {
+    margin: auto;
+ }
+ button {
+    background-color: green;
+    color: white;
+ }
