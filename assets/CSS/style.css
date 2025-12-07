@@ -1,28 +1,20 @@
-*{
-    background-color: antiquewhite;
+* {
+    line-height: 1.6;
 }
-
-.head {
-    font-size: 16px;
+.Name ,.Information ,.linkedin {
     text-align: center;
-    color: blue;
-    font-weight: 600;
 }
-th {
-    font-size: 18px;
-    color: green
+#year {
+    float: right;
+    padding-right: 10px;
 }
+ h3,h4 {
+    padding-left: 30px ;
 
-table, th,td {
-    border: 2px solid black;
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 15px;
-}
-th, td {
-    padding: 15px;
-}
-
-
+ }
+ p ,h5,span,ul {
+    padding-left: 50px;
+ }
+ #one {
+    padding-left: 70px;
+ }
