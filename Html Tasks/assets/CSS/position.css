@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    height: 1200px;
+}
+
+.parent {
+    background-color:red ;
+    height: 400px;
+    margin: 100px;
+    width: 400px;
+
+}
+.child {
+    background-color: aquamarine;
+    height: 200px;
+    width: 100px;
+    border: 3px solid black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}

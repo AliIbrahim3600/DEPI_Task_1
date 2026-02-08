@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: crimson;
+}
+
+.parent {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+}
+.child {
+  color: bisque;
+  text-align: center;
+  width: 20%;
+  height: 20%;
+  margin: 20px;
+}
+.child:hover {
+    background-color: black;
+}
+.child h4 {
+    color: white;
+    font-size: 20px;
+    margin: 2px;
+}
