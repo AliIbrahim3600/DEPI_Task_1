@@ -162,9 +162,9 @@ function choiceB() {
 }
 function choiceC() {
   const resultDiv = document.createElement("div");
-  const sortedArray = [...array].sort((a, b) => a - b);
+  const sortedArray = [...array].sort((a, b) => b - a);
   resultDiv.innerHTML = `<h3> Array In Descending Order :</h3>
-    <p>[${sortedArray.reverse().join(", ")}]</p>
+    <p>[${sortedArray.join(", ")}]</p>
     `;
   document.body.appendChild(resultDiv);
 }
