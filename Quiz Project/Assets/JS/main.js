@@ -182,6 +182,12 @@ function submitQuiz() {
     }
   });
 
+  Swal.fire({
+    title: "Submit Done!",
+    icon: "success",
+    draggable: true,
+  });
+
   const quizContainer = document.getElementById("quiz-container");
   quizContainer.innerHTML = `
     <div class="results">
