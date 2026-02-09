@@ -61,7 +61,8 @@ body {
   width: 70%;
   margin: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content:flex-end;
+  gap: calc(100% -5rem);
 }
 .prev-btn,
 .next-btn,
@@ -83,8 +84,8 @@ body {
 .prev-btn:hover,
 .next-btn:hover,
 .submit-quiz-btn:hover,
-.restart-btn:hover
-,.start-btn:hover {
+.restart-btn:hover,
+.start-btn:hover {
   background-color: #f3f2b2;
   color: #1c2324;
 }
