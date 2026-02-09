@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite NZ Basic", cursive;
+}
+body {
+  background-color: #dee2b6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.start-btn {
+  background-color: #7e8c54;
+  padding: 1rem 3rem;
+  border-color: #adb685;
+  font-size: larger;
+  font-weight: bold;
+  margin: 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+#quiz-container {
+  display: none;
+  width: 80%;
+}
+
+.question-container {
+  font-size: large;
+  margin: 1rem;
+  background-color: #adb685;
+  padding: 2rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.question-container h2 {
+  color: #1c2324;
+}
+
+.answers {
+  padding-left: 4rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: #4a6252;
+  font-size: 1.4rem;
+}
+.answers input {
+  margin-right: 1rem;
+}
+.button-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.prev-btn,
+.next-btn,
+.submit-quiz-btn,
+.restart-btn {
+  font-size: large;
+  font-weight: bold;
+  margin: 1.5rem 0.5rem;
+  padding: 1rem 2rem;
+  background-color: #96a06d;
+  border-color: white;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+
+.prev-btn:hover,
+.next-btn:hover,
+.submit-quiz-btn:hover,
+.restart-btn:hover
+,.start-btn:hover {
+  background-color: #f3f2b2;
+  color: #1c2324;
+}
+
+.results {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #adb685;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+.results h2 {
+  font-size: 2rem;
+}
+.results p {
+  font-size: large;
+  font-weight: 600;
+}
