@@ -140,7 +140,7 @@ function doAsUserChoose(choiceValue) {
       location.reload();
       break;
     default:
-      alert("Invalid choice! Please enter a letter from a to h");
+      alert("Invalid choice! Please enter a letter from a to i");
       break;
   }
 }
