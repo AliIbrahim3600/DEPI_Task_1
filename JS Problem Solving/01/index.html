@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Accordion</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <h1>Frequently Asked</h1>
+    <div class="container">
+      <div class="part">
+        <div class="header" data-num="01">
+          <h2>What are accordion components?</h2>
+          <div id="arrow1" class="arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+        </div>
+        <p>
+          Accordion components are UI elements that expand and collapse to
+          reveal or hide content. They're ideal for FAQs, settings panels, and
+          anywhere you need to present information progressively without
+          overwhelming the user.
+        </p>
+      </div>
+      <div class="part">
+        <div class="header" data-num="02">
+          <h2>When should I use an accordion?</h2>
+          <div id="arrow2" class="arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+        </div>
+        <p>
+          Use accordions when you have multiple sections of content that users
+          may not all need to read. They reduce visual clutter and let users
+          focus on what matters to them — perfect for FAQ pages, product
+          details, and settings menus.
+        </p>
+      </div>
+      <div class="part">
+        <div class="header" data-num="03">
+          <h2>Are accordions accessible?</h2>
+          <div id="arrow3" class="arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+        </div>
+        <p>
+          Yes, when built correctly. Ensure your toggle buttons use proper ARIA
+          attributes like <code>aria-expanded</code> and
+          <code>aria-controls</code>, and that keyboard navigation works
+          seamlessly using Tab and Enter keys.
+        </p>
+      </div>
+      <div class="part">
+        <div class="header" data-num="04">
+          <h2>Can I animate the open and close?</h2>
+          <div id="arrow4" class="arrow">
+            <i class="fa-solid fa-arrow-down"></i>
+          </div>
+        </div>
+        <p>
+          Absolutely. CSS transitions on <code>max-height</code> or using the
+          Web Animations API give you smooth, performant open/close effects. The
+          key is pairing the animation with a clear visual cue — like a rotating
+          arrow — so users always know the state.
+        </p>
+      </div>
+    </div>
+
+        <script src="assets/js/main.js"></script>
+    
+  </body>
+</html>
